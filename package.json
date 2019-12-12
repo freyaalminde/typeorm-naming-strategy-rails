@@ -1,0 +1,24 @@
+{
+  "name": "typeorm-naming-strategy-rails",
+  "version": "0.1.1",
+  "main": "dist/index.js",
+  "types": "dist/index.js.d",
+  "license": "MIT",
+  "description": "Rails-like naming strategy for TypeORM.",
+  "repository": "github:alminde/typeorm-naming-strategy-rails",
+  "author": "Jakob Alminde",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "typeorm": "^0.2.21"
+  },
+  "dependencies": {
+    "lodash": "4.x"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.x",
+    "@types/node": "^12.12.17",
+    "typeorm": "^0.2.21"
+  }
+}
